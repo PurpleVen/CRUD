@@ -1,11 +1,11 @@
 .Employee_Details
 |
-+---.employee_reg(app)
++---.employee_register(app folder)
 |   |
 |   .----.migrations(files for migrations)
 |   |
 |   +--.templates
-|   |   |--.employee_reg
+|   |   |--.employee_register
 |   |   |   |--base.html
 |   |   |   |--employee_form.html
 |   |   |   |--employee_list.html
@@ -15,7 +15,7 @@
 |   |--urls.py
 |   |--views.py
 |
-+---.Employee_Details(project folder)
++---.crud_project(project folder)
 |   |
 |   |--settings.py
 |   |--urls.py
